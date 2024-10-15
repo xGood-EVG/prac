@@ -6,7 +6,7 @@ def equation(s, w, degree_A, coeff_A, degree_B, coeff_B):
     
     if B == 0:
         return False
-    elif abs(A/B - Fraction(w)) < Fraction(1, 1000000):
+    elif (A/B) == Fraction(w):
         return True
     elif (A/B) != Fraction(w):
         return False

@@ -13,6 +13,6 @@ for i in range(W):
     x = scale(0, W - 1, A, B, i)
     y = sin(x)
     s = round(scale(-1, 1, 0, H - 1, y))
-    n[s][i] = '@'
+    n[s][i] = '*'
 
 screen(n)
