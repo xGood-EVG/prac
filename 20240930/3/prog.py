@@ -25,7 +25,6 @@ for i in range(n):
         for k in range(n):
             res[i][j] += m1[i][k] * m2[k][j]
 
-print()
 for i in res:
     print(*i, sep = ',')
 

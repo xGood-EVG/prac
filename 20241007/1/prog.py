@@ -11,4 +11,5 @@ def Pareto(*args):
             pareto.append(i)
     return tuple(pareto)
 
-# print(Pareto((1,2), (3,4), (2,2), (4,3), (7,0), (1,8)))
+res = eval(input())
+print(Pareto(*res))

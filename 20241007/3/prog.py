@@ -5,6 +5,6 @@ def Calc(s, t, u):
  
 n = input() 
 s, t, u = map(lambda x: x.strip().strip('"'), n.split(',')) 
-x = float(input()) 
+x = eval(input()) 
 calc_function = Calc(s, t, u) 
 print(calc_function(x))
