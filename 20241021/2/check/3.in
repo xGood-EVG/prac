@@ -1,0 +1,9 @@
+:no_params 42
+no_params
+:square x x**2
+square 3
+:sum x y x+y
+sum 5 10
+:concat a b c d "{}{}{}{}".format(a,b,c,d)
+concat "T" "e" "s" "t"
+quit "{}, {}"

@@ -1,0 +1,3 @@
+:calc l w h l*w*h
+calc 13 2 3
+quit "{}, {}"
