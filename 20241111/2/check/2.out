@@ -1,0 +1,4 @@
+x(True):0.5 y(True):0.5
+y < x=False, x < y=True
+x in y=False, y in x=False
+x & y=True, y & x=True

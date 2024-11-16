@@ -1,0 +1,11 @@
+x, y, z = Omnibus(), Omnibus(), Omnibus()
+x.a = x.b = "hello"
+y.b = y.c = 123
+z.c = z.d = 3.14
+print(x.a, x.b, y.b, y.c, z.c, z.d)
+del y.c
+print(x.a, x.b, y.b, y.c, z.c, z.d)
+del z.d
+print(x.a, x.b, y.b, y.c, z.c, z.d)
+y.b = x.c = True
+print(x.a, x.b, x.c, y.b, z.c)

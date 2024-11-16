@@ -1,0 +1,7 @@
+x = Triangle((2, 3), (3, 4), (1, 3))
+y = Triangle((0, 5), (1, 7), (2, 0))
+
+print(*(f"{n}({bool(i)}):{round(abs(x), 3)}" for n, i in zip("xy", (x, y))))
+print(f"{y < x=}, {x < y=}")
+print(f"{x in y=}, {y in x=}")
+print(f"{x & y=}, {y & x=}")

@@ -38,20 +38,21 @@ class Rectangle():
         self.__class__.rectcnt -= 1
         print(self.rectcnt)
 
-    def __iter__(self):
+    def __iter__(self):    # Вместо getitem
         return iter(((self.x1, self.y1), (self.x1, self.y2), (self.x2, self.y2), (self.x2, self.y1)))
     
-tmp0 = Rectangle(5, 5, 5, 5)
-tmp1 = Rectangle(0, 1, 2, 3)
-tmp2 = Rectangle(5, 6, 7, 9)
-
-print(tmp2[2])
-print(list(tmp0))
-print()
-for x, y in tmp2:
-    print(x, y)
-print()
-print(tmp0.__bool__())
-print()
-for i in Rectangle(2, 3, 4, 5):
-    print("#", i)
+t = Rectangle(5, 5, 5, 5)
+s = Rectangle(0, 1, 2, 3)
+r = Rectangle(5, 6, 7, 9)
+o = Rectangle(1, 2, 3, 4)
+print(*(f"{n}({bool(x)}):{round(abs(x), 3)}" for n, x in zip("rsto", (r, s, t, o))))
+# print(tmp2[2])
+# print(list(tmp1))
+# print()
+# for x, y in tmp2:
+#     print(x, y)
+# print()
+# print(tmp1.__bool__())
+# print()
+# for i in Rectangle(2, 3, 4, 5):
+#     print("#", i)

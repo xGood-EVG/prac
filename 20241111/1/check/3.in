@@ -1,0 +1,10 @@
+p, q, r, s = Omnibus(), Omnibus(), Omnibus(), Omnibus()
+p.x = p.y = 42
+q.y = q.z = "test"
+r.x = r.w = None
+s.z = s.w = s.v = True
+print(p.x, p.y, q.y, q.z, r.x, r.w, s.z, s.w, s.v)
+del p.y, q.z, s.v
+print(p.x, p.y, q.y, q.z, r.x, r.w, s.z, s.w, s.v)
+p.z = q.x = r.y = s.x = "added"
+print(p.x, p.z, q.x, q.y, r.y, s.x)

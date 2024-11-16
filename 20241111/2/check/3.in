@@ -1,0 +1,9 @@
+i = Triangle((1, 1), (2, 1), (1, 2))
+j = Triangle((0, 0), (0, 6), (1, 6))
+k = Triangle((0, 0), (2, 0), (2, 2))
+
+print(f"{Triangle((2, 4), (1, 3), (6, 2))}")
+print(*(f"{n}({bool(x)}):{round(abs(x), 3)}" for n, x in zip("ijk", (i, j, k))))
+print(f"{i < j=}, {i < k=}, {j < k=}, {k < j=}")
+print(f"{i in j=}, {i in k=}, {j in k=}")
+print(f"{i & j=}, {i & k=}, {j & k=}")

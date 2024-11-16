@@ -1,0 +1,5 @@
+[2, 4][1, 3][6, 2]
+i(True):0.5 j(True):3.0 k(True):2.0
+i < j=True, i < k=True, j < k=False, k < j=True
+i in j=False, i in k=False, j in k=False
+i & j=False, i & k=True, j & k=True
