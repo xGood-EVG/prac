@@ -1,0 +1,7 @@
+a = DivStr("")
+b = DivStr("AbC")
+a += "dEfG"
+c = a + b
+print(* c // 2)
+print(c % 3)
+print(c.lower() % 3)
