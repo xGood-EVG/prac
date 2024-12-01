@@ -1,0 +1,14 @@
+class D:
+    num = Num()
+
+d1 = D()
+d1.num = 5
+print(d1.num)
+
+d2 = D()
+d2.num = "hello world"
+print(d2.num)
+
+d3 = D()
+d3.num = range(1, 10)
+print(d3.num)

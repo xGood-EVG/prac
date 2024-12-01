@@ -1,0 +1,17 @@
+w2 = Vowel(i=5, y=15)
+print(w2, w2.full)
+
+try:
+    print(w2.z)
+except AttributeError as e:
+    print(e)
+
+try:
+    w2.z = 99
+except AttributeError as e:
+    print(e)
+
+try:
+    w2.full = True
+except AttributeError as e:
+    print(e)

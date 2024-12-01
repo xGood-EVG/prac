@@ -1,0 +1,12 @@
+w1 = Vowel(a=10, e=20)
+print(w1, w1.full)
+
+try:
+    print(w1.o)
+except AttributeError as e:
+    print(e)
+
+try:
+    w1.answer = 42
+except AttributeError as e:
+    print(e)

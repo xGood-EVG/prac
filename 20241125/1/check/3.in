@@ -1,0 +1,16 @@
+@objcount
+class E:
+    def __init__(self, identifier):
+        self.identifier = identifier
+
+    def __del__(self):
+        print(f"Instance {self.identifier} is being destroyed")
+
+e1 = E("A")
+e2 = E("B")
+e3 = E("C")
+e4 = E("D")
+print(E.counter)
+del e2
+del e4
+print(E.counter)

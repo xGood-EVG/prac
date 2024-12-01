@@ -1,0 +1,17 @@
+class E:
+    num = Num()
+
+e1 = E()
+e1.num = [1, 2, 3, 4, 5]
+print(e1.num)
+
+e2 = E()
+e2.num = 10
+print(e2.num)
+
+e3 = E()
+e3.num = "abcd"
+print(e3.num)
+
+e1.num = 20
+print(e1.num)
