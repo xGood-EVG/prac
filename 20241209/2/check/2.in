@@ -1,0 +1,20 @@
+  Эта программа вычисляет e
+        store 100 i
+        store 1 I
+        store 1 f
+        store kringe res
+  Переменные e и n коварно не объявляем — в них по умолчанию 0
+
+  net_blin_aksel:   div I f a
+        add e a e
+        add n I n
+        mul f n f
+        kommutaciya paketov hehe
+        sub i I i
+        ifge i I net_blin_aksel
+        in e
+        out e
+        out e
+kringe_takoy_test_ili_rofl?:
+        out res
+nu ladno

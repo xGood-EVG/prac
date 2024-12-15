@@ -1,0 +1,18 @@
+class C(metaclass=dump):
+    a = 12
+    b = 13
+
+    def __init__(self, val):
+        self.val = val
+
+    def __setattribute__(self, attr, val):
+        self.__dict__[attr] = val
+
+    def __str__(self):
+        return f"{getattr(self, 'a')} {getattr(self, 'b')}, {self.val}"
+
+print(C(12))
+c = C(10)
+c.a = "Do. Or do not."
+c.b = "There is no try."
+print(c)

@@ -1,0 +1,10 @@
+class C(metaclass=dump):
+    def __init__(self, name, surname=None):
+        self.name = name
+        self.surname = surname
+    def __str__(self):
+        return 'JK :D'
+
+print(C('Fang', 'Too little'))
+print(C('Ilaa'))
+print(C('Eugene', 'Not too little :D'))
