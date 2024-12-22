@@ -1,0 +1,17 @@
+import random
+import asyncio
+
+async def main(A):
+    tasks, B = await mtasks(A)
+    print(len(tasks))
+    random.shuffle(tasks)
+    await asyncio.gather(*tasks)
+    return B
+
+
+random.seed(321)
+A = random.choices(range(100), k=150)
+B = asyncio.run(main(A))
+print(*A)
+print(*B)
+print(B == sorted(A))
