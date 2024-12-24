@@ -1,0 +1,107 @@
+[logging]
+"console level" = "INFO"
+"file level" = "DEBUG"
+
+[modules]
+deliver = [
+    "file",
+]
+
+[git]
+directory = "/tmp/hworker_git"
+
+[git.users]
+
+[imap]
+host = "host"
+port = 993
+folder = "INBOX"
+username = "username"
+password = "password"
+letter_limit = -1
+
+[imap.users]
+
+[file]
+root_path = "repo"
+
+[file.users]
+"The teacher" = "teacher"
+"Smart student" = "student"
+"Beautiful student" = "studentka"
+
+[tasks.first]
+open_date = 2023-07-12 01:00:00
+deliver_ID = "first"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2023-07-18 01:00:00
+hard_deadline = 2023-07-25 01:00:00
+
+[tasks.first.checks]
+"The teacher:first/deadline" = []
+"The teacher:first/attendance" = []
+"The teacher:first/no_import" = []
+"The teacher:first/solution_size" = [
+    30,
+]
+
+[tasks.second]
+open_date = 2023-08-12 01:00:00
+deliver_ID = "second"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2023-08-18 01:00:00
+hard_deadline = 2023-08-25 01:00:00
+
+[tasks.second.checks]
+"The teacher:first/deadline" = []
+"The teacher:first/attendance" = []
+"The teacher:first/no_import" = []
+"The teacher:first/solution_size" = [
+    30,
+]
+
+[make]
+screenreplay = false
+deadline_gap = 03:00:00
+
+[check]
+directory = "/tmp/hworker_check"
+user_checks = true
+
+[formalization]
+prog_name = "prog.py"
+remote_name = "remote"
+check_name = "check"
+runtime_suffix = [
+    "in",
+    "out",
+]
+validate_suffix = "py"
+validator_name = "validator"
+version_validator_name = "version_validator"
+no_merge = [
+    "checks",
+]
+
+[publish]
+host = "0.0.0.0"
+port = "8080"
+course_name = "Kapibarology"
+secret_cookie = "kapibara"
+static_folder = "static"
+url_prefix = ""
+SECRET_KEY = "1d90cf9b0061d14044d8146c7e0e01b40d16b00b0f2ae921e2b4f9ab48412309"
+
+[score]
+score_directory = "scores"
+
+[depot]
+database_path = "data.db"
