@@ -1,0 +1,453 @@
+[logging]
+"console level" = "INFO"
+"file level" = "INFO"
+
+[modules]
+deliver = [
+    "git",
+]
+
+[git]
+directory = "hworker_personal"
+
+[git.users]
+"Билоус Евгений" = "https://github.com/xGood-EVG/prac.git"
+"Шилов Даниил" = "https://github.com/daniilka-msu/prac.git"
+
+[imap]
+host = "host"
+port = 993
+folder = "INBOX"
+username = "username"
+password = "password"
+letter_limit = -1
+
+[imap.users]
+
+[file]
+root_path = "files"
+
+[file.users]
+
+[tasks."20240910/1"]
+open_date = 2024-09-10 01:00:00
+deliver_ID = "20240910/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-09-16 01:00:00
+hard_deadline = 2024-09-23 01:00:00
+
+[tasks."20240923/1"]
+open_date = 2024-09-23 01:00:00
+deliver_ID = "20240923/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-09-29 01:00:00
+hard_deadline = 2024-10-06 01:00:00
+
+[tasks."20240923/2"]
+open_date = 2024-09-23 01:00:00
+deliver_ID = "20240923/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-09-29 01:00:00
+hard_deadline = 2024-10-06 01:00:00
+
+[tasks."20240923/3"]
+open_date = 2024-09-23 01:00:00
+deliver_ID = "20240923/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-09-29 01:00:00
+hard_deadline = 2024-10-06 01:00:00
+
+[tasks."20240930/1"]
+open_date = 2024-09-30 01:00:00
+deliver_ID = "20240930/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-06 01:00:00
+hard_deadline = 2024-10-13 01:00:00
+
+[tasks."20240930/2"]
+open_date = 2024-09-30 01:00:00
+deliver_ID = "20240930/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-06 01:00:00
+hard_deadline = 2024-10-13 01:00:00
+
+[tasks."20240930/3"]
+open_date = 2024-09-30 01:00:00
+deliver_ID = "20240930/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-06 01:00:00
+hard_deadline = 2024-10-13 01:00:00
+
+[tasks."20241007/1"]
+open_date = 2024-10-07 01:00:00
+deliver_ID = "20241007/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-13 01:00:00
+hard_deadline = 2024-10-20 01:00:00
+
+[tasks."20241007/2"]
+open_date = 2024-10-07 01:00:00
+deliver_ID = "20241007/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-13 01:00:00
+hard_deadline = 2024-10-20 01:00:00
+
+[tasks."20241007/3"]
+open_date = 2024-10-07 01:00:00
+deliver_ID = "20241007/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-13 01:00:00
+hard_deadline = 2024-10-20 01:00:00
+
+[tasks."20241014/1"]
+open_date = 2024-10-14 01:00:00
+deliver_ID = "20241014/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-20 01:00:00
+hard_deadline = 2024-10-27 01:00:00
+
+[tasks."20241014/2"]
+open_date = 2024-10-14 01:00:00
+deliver_ID = "20241014/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-20 01:00:00
+hard_deadline = 2024-10-27 01:00:00
+
+[tasks."20241014/3"]
+open_date = 2024-10-14 01:00:00
+deliver_ID = "20241014/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-20 01:00:00
+hard_deadline = 2024-10-27 01:00:00
+
+[tasks."20241021/1"]
+open_date = 2024-10-21 01:00:00
+deliver_ID = "20241021/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-27 01:00:00
+hard_deadline = 2024-11-03 01:00:00
+
+[tasks."20241021/2"]
+open_date = 2024-10-21 01:00:00
+deliver_ID = "20241021/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-27 01:00:00
+hard_deadline = 2024-11-03 01:00:00
+
+[tasks."20241021/3"]
+open_date = 2024-10-21 01:00:00
+deliver_ID = "20241021/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-10-27 01:00:00
+hard_deadline = 2024-11-03 01:00:00
+
+[tasks."20241028/1"]
+open_date = 2024-10-28 01:00:00
+deliver_ID = "20241028/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-03 01:00:00
+hard_deadline = 2024-11-10 01:00:00
+
+[tasks."20241028/2"]
+open_date = 2024-10-28 01:00:00
+deliver_ID = "20241028/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-03 01:00:00
+hard_deadline = 2024-11-10 01:00:00
+
+[tasks."20241028/3"]
+open_date = 2024-10-28 01:00:00
+deliver_ID = "20241028/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-03 01:00:00
+hard_deadline = 2024-11-10 01:00:00
+
+[tasks."20241111/1"]
+open_date = 2024-11-11 01:00:00
+deliver_ID = "20241111/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-17 01:00:00
+hard_deadline = 2024-11-24 01:00:00
+
+[tasks."20241111/2"]
+open_date = 2024-11-11 01:00:00
+deliver_ID = "20241111/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-17 01:00:00
+hard_deadline = 2024-11-24 01:00:00
+
+[tasks."20241111/3"]
+open_date = 2024-11-11 01:00:00
+deliver_ID = "20241111/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-17 01:00:00
+hard_deadline = 2024-11-24 01:00:00
+
+[tasks."20241118/1"]
+open_date = 2024-11-18 01:00:00
+deliver_ID = "20241118/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-24 01:00:00
+hard_deadline = 2024-12-01 01:00:00
+
+[tasks."20241118/2"]
+open_date = 2024-11-18 01:00:00
+deliver_ID = "20241118/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-24 01:00:00
+hard_deadline = 2024-12-01 01:00:00
+
+[tasks."20241118/3"]
+open_date = 2024-11-18 01:00:00
+deliver_ID = "20241118/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-11-24 01:00:00
+hard_deadline = 2024-12-01 01:00:00
+
+[tasks."20241125/1"]
+open_date = 2024-11-25 01:00:00
+deliver_ID = "20241125/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-01 01:00:00
+hard_deadline = 2024-12-08 01:00:00
+
+[tasks."20241125/2"]
+open_date = 2024-11-25 01:00:00
+deliver_ID = "20241125/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-01 01:00:00
+hard_deadline = 2024-12-08 01:00:00
+
+[tasks."20241125/3"]
+open_date = 2024-11-25 01:00:00
+deliver_ID = "20241125/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-01 01:00:00
+hard_deadline = 2024-12-08 01:00:00
+
+[tasks."20241202/1"]
+open_date = 2024-12-02 01:00:00
+deliver_ID = "20241202/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-08 01:00:00
+hard_deadline = 2024-12-15 01:00:00
+
+[tasks."20241202/2"]
+open_date = 2024-12-02 01:00:00
+deliver_ID = "20241202/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-08 01:00:00
+hard_deadline = 2024-12-15 01:00:00
+
+[tasks."20241202/3"]
+open_date = 2024-12-02 01:00:00
+deliver_ID = "20241202/3"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-08 01:00:00
+hard_deadline = 2024-12-15 01:00:00
+
+[tasks."20241209/1"]
+open_date = 2024-12-09 01:00:00
+deliver_ID = "20241209/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-15 01:00:00
+hard_deadline = 2024-12-22 01:00:00
+
+[tasks."20241209/2"]
+open_date = 2024-12-09 01:00:00
+deliver_ID = "20241209/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-15 01:00:00
+hard_deadline = 2024-12-22 01:00:00
+
+[tasks."20241216/1"]
+open_date = 2024-12-16 01:00:00
+deliver_ID = "20241216/1"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-22 01:00:00
+hard_deadline = 2024-12-29 01:00:00
+
+[tasks."20241216/2"]
+open_date = 2024-12-16 01:00:00
+deliver_ID = "20241216/2"
+soft_deadline_delta = "open_date+6d"
+hard_deadline_delta = "open_date+13d"
+test_size = 1024
+time_limit = 2
+resource_limit = 3145728
+soft_deadline = 2024-12-22 01:00:00
+hard_deadline = 2024-12-29 01:00:00
+
+[make]
+screenreplay = false
+deadline_gap = 03:00:00
+
+[check]
+directory = "hworker_check"
+user_checks = true
+
+[formalization]
+prog_name = "prog.py"
+remote_name = "remote"
+check_name = "check"
+runtime_suffix = [
+    "in",
+    "out",
+]
+validate_suffix = "py"
+validator_name = "validator"
+version_validator_name = "version_validator"
+no_merge = [
+    "checks",
+]
+
+[publish]
+host = "0.0.0.0"
+port = "8080"
+course_name = "My prac"
+secret_cookie = "kapibara"
+static_folder = "static"
+url_prefix = ""
+SECRET_KEY = "8556aa9cfdd8c8e0884d1b2568985789372281093f338caf5cc145fdb9e5f7b5"
+
+[score]
+score_directory = "scores"
+
+[depot]
+database_path = "data.db"
