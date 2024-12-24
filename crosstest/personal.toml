@@ -11,8 +11,8 @@ deliver = [
 directory = "hworker_personal"
 
 [git.users]
-"Билоус Евгений" = "https://github.com/xGood-EVG/prac.git"
-"Шилов Даниил" = "https://github.com/daniilka-msu/prac.git"
+"Билоус Евгений" = "https://github.com/xGood-EVG/prac"
+"Леухин Илья" = "https://github.com/C0ntrabandist/PyPrac"
 
 [tasks._default]
 time_limit = 2

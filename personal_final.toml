@@ -1,0 +1,70 @@
+[logging]
+"console level" = "INFO"
+"file level" = "DEBUG"
+
+[modules]
+deliver = [
+    "imap",
+    "git",
+    "file",
+]
+
+[git]
+directory = "/tmp/hworker_git"
+
+[git.users]
+
+[imap]
+host = "host"
+port = 993
+folder = "INBOX"
+username = "username"
+password = "password"
+letter_limit = -1
+
+[imap.users]
+
+[file]
+root_path = "files"
+
+[file.users]
+
+[tasks]
+
+[make]
+screenreplay = false
+deadline_gap = 03:00:00
+
+[check]
+directory = "/tmp/hworker_check"
+user_checks = true
+
+[formalization]
+prog_name = "prog.py"
+remote_name = "remote"
+check_name = "check"
+runtime_suffix = [
+    "in",
+    "out",
+]
+validate_suffix = "py"
+validator_name = "validator"
+version_validator_name = "version_validator"
+no_merge = [
+    "checks",
+]
+
+[publish]
+host = "0.0.0.0"
+port = "8080"
+course_name = "Kapibarology"
+secret_cookie = "kapibara"
+static_folder = "static"
+url_prefix = ""
+SECRET_KEY = "replace this junky text"
+
+[score]
+score_directory = "."
+
+[depot]
+database_path = "data.db"
